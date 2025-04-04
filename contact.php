@@ -1,8 +1,11 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "portfolio";
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+$servername = "sql112.infinityfree.com";  // Correct MySQL Hostname
+$username = "if0_38671137";  // Your MySQL Username
+$password = "uczHhYrLgsHGZ1";  // Your MySQL Password
+$database = "if0_38671137_portfolio";  // Your MySQL Database Name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
